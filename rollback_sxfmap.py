@@ -6,6 +6,8 @@ import psycopg2
 # WHAT DO:   rollback given map in table set
 #
 
+# new line
+
 def deleteRowsInTables(_sxfMapName):
     # delete rows of given map in common set
     # 1. search by name in metadata table (loaded_sxf_maps)
